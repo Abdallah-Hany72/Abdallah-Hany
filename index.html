@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdallah Hany - Software Engineer</title>
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portfolio of Abdallah Hany Metwally, a Software Engineer and Front-End Developer building modern web applications."
+    />
+    <meta
+      name="keywords"
+      content="Abdallah Hany Metwally, Software Engineer, Front-End Developer, React, Portfolio"
+    />
+    <meta name="author" content="Abdallah Hany Metwally" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>"
+    />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header / Navbar -->
+    <header class="header">
+      <a href="#home" class="logo">Abdallah<span>.</span></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-right">
+        <button
+          id="theme-toggle"
+          class="theme-btn"
+          aria-label="Toggle Dark Mode"
+        >
+          <i class="bx bx-moon"></i>
+        </button>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Abdallah Hany</h1>
+        <h3>
+          And I'm a <span class="multiple-text"></span
+          ><span class="cursor">&nbsp;</span>
+        </h3>
+        <p>
+          I build modern web applications using React and Node.js. Passionate
+          about coding, technology, and software development. I enjoy learning
+          new technologies, solving bugs, and collaborating to improve my
+          skills.
+        </p>
+
+        <div class="social-media">
+          <a
+            href="https://github.com/abdallah-hany72"
+            target="_blank"
+            aria-label="GitHub"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/abdallah-hany-7728b5315"
+            target="_blank"
+            aria-label="LinkedIn"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/abdalla.hany.77"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/abdallah_hany05"
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/qr/VZT2E6DRKJPLO1"
+            target="_blank"
+            aria-label="WhatsApp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
+
+        <div class="btn-box">
+          <a href="#contact" class="btn">Hire Me</a>
+          <!-- CV Download Link (Placeholder) -->
+          <a href="./Abdallah Hany CV.pdf" class="btn" id="download-cv" download
+            >Download CV</a
+          >
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <i class="bx bx-code-alt">
+            <img
+              src="./ChatGPT_Image_Mar_13_2026_05_13_11_PM.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <div class="img-box">
+          <i class="bx bx-user">
+            <img
+              src="./20251029_172724.jpg"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </i>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Engineer & Front-End Developer</h3>
+        <p>
+          I am a Computer Science student at Alexandria University, Faculty of
+          Science, based in Alexandria, Egypt. I am highly passionate about
+          coding, technology, and building user-friendly software. I enjoy
+          taking complex problems and turning them into beautiful, intuitive
+          interfaces. Constant learning and bug-solving are part of my daily
+          journey to hone my skills and contribute to developer communities.
+        </p>
+
+        <div class="education-card glass-card">
+          <i class="bx bxs-graduation"></i>
+          <h4>Education</h4>
+          <p><strong>B.Sc. in Computer Science</strong></p>
+          <p>Faculty of Science – Alexandria University</p>
+          <p>Alexandria, Egypt</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box glass-card">
+          <i class="bx bx-code-alt"></i>
+          <h3>Frontend Development</h3>
+          <p>
+            Build modern, responsive, and fast websites using HTML, CSS,
+            JavaScript, and React.
+          </p>
+        </div>
+
+        <div class="services-box glass-card">
+          <i class="bx bx-palette"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Create clean, user-friendly, and visually appealing interfaces with
+            great user experience.
+          </p>
+        </div>
+
+        <div class="services-box glass-card">
+          <i class="bx bx-tachometer"></i>
+          <h3>Website Optimization</h3>
+          <p>
+            Improve website performance, speed, and responsiveness for better
+            user experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-box glass-card">
+          <i class="bx bxl-html5"></i>
+          <h3>HTML5</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-css3"></i>
+          <h3>CSS3</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-javascript"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-typescript"></i>
+          <h3>TypeScript</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-react"></i>
+          <h3>React</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-git"></i>
+          <h3>Git & GitHub</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-visual-studio"></i>
+          <h3>VS Code</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bxl-figma"></i>
+          <h3>Figma</h3>
+        </div>
+        <div class="skills-box glass-card">
+          <i class="bx bx-wrench"></i>
+          <h3>Problem Solving</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="projects-container">
+        <div
+          class="project-card glass-card"
+          onclick="
+            window.open(
+              'https://abdallah-hany72.github.io/Sip-Savor/',
+              '_blank',
+            )
+          "
+        >
+          <div class="project-img">
+            <!-- <i class="bx bx-laptop"></i> -->
+            <img
+              src="./Screenshot 2026-03-18 230423.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="project-info">
+            <h4>Extraordinary Coffee</h4>
+            <p>
+              A modern, responsive coffee shop website showcasing menu,
+              ambiance, and services. Built with HTML, CSS, and JavaScript.
+            </p>
+            <span class="project-link"
+              ><i class="bx bx-link-external"></i> Live Demo</span
+            >
+          </div>
+        </div>
+        <div
+          class="project-card glass-card"
+          onclick="
+            window.open(
+              'https://abdallah-hany72.github.io/Abdallha_portfolio/',
+              '_blank',
+            )
+          "
+        >
+          <div class="project-img">
+            <!-- <i class="bx bx-laptop"></i> -->
+            <img
+              src="./Screenshot 2026-03-18 232135.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="project-info">
+            <h4>Personal Portfolio</h4>
+            <p>
+              A modern, animated portfolio website showcasing my skills,
+              experience, and projects. Built with HTML, CSS, and JS.
+            </p>
+            <span class="project-link"
+              ><i class="bx bx-link-external"></i> Live Demo</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="project-card glass-card"
+          onclick="
+            window.open(
+              'https://abdallah-hany72.github.io/BOOTSTRAB/',
+              '_blank',
+            )
+          "
+        >
+          <div class="project-img">
+            <!-- <i class="bx bx-chair"></i> -->
+            <img
+              src="./Move.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="project-info">
+            <h4>Move With Joy</h4>
+            <p>
+              A responsive furniture-related website built using Bootstrap
+              focusing on clean layout and e-commerce-style UI components.
+            </p>
+            <span class="project-link"
+              ><i class="bx bx-link-external"></i> Live Demo</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="project-card glass-card"
+          onclick="
+            window.open('https://abdallah-hany72.github.io/DOG/', '_blank')
+          "
+        >
+          <div class="project-img">
+            <!-- <i class="bx bx-bone"></i> -->
+            <img
+              src="./Dog.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="project-info">
+            <h4>Dog Website</h4>
+            <p>
+              A responsive design practice website centered around dogs,
+              implementing modern grid and flexbox techniques.
+            </p>
+            <span class="project-link"
+              ><i class="bx bx-link-external"></i> Live Demo</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Courses Section -->
+    <section class="experience" id="experience">
+      <h2 class="heading">My <span>Journey</span></h2>
+
+      <div class="timeline-wrapper">
+        <div class="timeline-column">
+          <h3 class="title">Work Experience</h3>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-calendar"></i> Feb 2024 - Present
+              </div>
+              <h3>Front-End Developer</h3>
+              <p class="subtitle">Freelance / Self-Employed</p>
+              <ul>
+                <li>Developing responsive & user-friendly web interfaces</li>
+                <li>Building reusable UI components</li>
+                <li>Improving website performance and usability</li>
+                <li>Translating design concepts into clean code</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-calendar"></i> Jan 2022 - Present
+              </div>
+              <h3>Mathematics Instructor</h3>
+              <p class="subtitle">Private Tutor</p>
+              <ul>
+                <li>Teaching mathematics for school students</li>
+                <li>Simplifying complex concepts</li>
+                <li>Improving academic performance</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-calendar"></i> Jul 2023 - Jan 2024
+              </div>
+              <h3>Short-Form Video Editor</h3>
+              <p class="subtitle">Freelance</p>
+              <ul>
+                <li>Editing Reels / Shorts content</li>
+                <li>Assisting marketing teams</li>
+                <li>Improving engagement strategies</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-calendar"></i> Jan 2020 - Dec 2022
+              </div>
+              <h3>Sales Associate</h3>
+              <p class="subtitle">Supermarket</p>
+              <ul>
+                <li>Customer service and sales operations</li>
+                <li>Inventory management</li>
+                <li>Team collaboration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-column">
+          <h3 class="title">Courses & Training</h3>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-book-bookmark"></i> Recent
+              </div>
+              <h3>Front-End (React)</h3>
+              <p class="subtitle">Digital Egypt Initiative (DEPI)</p>
+              <p>
+                Intensive program focusing on modern React development and state
+                management.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-book-bookmark"></i> Completed
+              </div>
+              <h3>Full Stack Development</h3>
+              <p class="subtitle">Udemy</p>
+              <p>
+                Comprehensive bootcamp covering front-end technologies and
+                back-end integration.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div class="timeline-content glass-card">
+              <div class="timeline-date">
+                <i class="bx bx-book-bookmark"></i> Completed
+              </div>
+              <h3>English Language Course</h3>
+              <p class="subtitle">Alexandria University</p>
+              <p>
+                Advanced English language studies to enhance communication
+                skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <div class="contact-wrapper">
+        <div class="contact-info glass-card">
+          <h3>Let's Work Together</h3>
+          <p>
+            Feel free to reach out for collaborations, freelance work or just a
+            friendly hello!
+          </p>
+          <div class="info-item">
+            <i class="bx bx-envelope"></i>
+            <p>
+              <a href="mailto:hanybdallh824@gmail.com"
+                >hanybdallh824@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="info-item">
+            <i class="bx bx-phone"></i>
+            <p>
+              <a href="tel:+201014881130">+20 1014881130</a>
+            </p>
+          </div>
+          <div class="info-item">
+            <i class="bx bx-phone"></i>
+            <p>
+              <a href="tel:+201557544740">+20 1557544740</a>
+            </p>
+          </div>
+          <div class="info-item">
+            <i class="bx bx-map"></i>
+            <p>Alexandria, Egypt</p>
+          </div>
+          <div class="info-item">
+            <i class="bx bx-globe"></i>
+            <p>English (Very Good), Arabic (Native)</p>
+          </div>
+        </div>
+
+        <form action="#" class="contact-form glass-card">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <div class="input-box">
+            <input type="tel" placeholder="Mobile Number" />
+            <input type="text" placeholder="Email Subject" required />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">
+            Send Message <i class="bx bx-send"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; <span id="year"></span> by Abdallah Hany | All Rights
+          Reserved.
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home" aria-label="Go to top"
+          ><i class="bx bx-up-arrow-alt"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- ScrollReveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
